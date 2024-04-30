@@ -927,7 +927,7 @@ vim.g.expandtab = true
 -- NOTE: Neovide config
 vim.g.neovide_cursor_animation_length = 0.05
 vim.g.neovide_cursor_animate_in_insert_mode = false
-vim.o.guifont = 'SauceCodePro Nerd Font Mono:h12'
+vim.o.guifont = 'SauceCodePro Nerd Font Mono:h11'
 vim.g.neovide_scroll_animation_length = 0
 vim.g.neovide_cursor_trail_size = 0.1
 

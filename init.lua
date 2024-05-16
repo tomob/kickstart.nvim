@@ -925,6 +925,7 @@ vim.g.tabstop = 2
 vim.g.softtabstop = 2
 vim.g.shiftwidth = 2
 vim.g.expandtab = true
+vim.o.conceallevel = 2
 
 -- NOTE: Keys
 -- vim.keymap.set('n', '<leader>b', builtin.help_tags, { desc = '[B]uffer [C]lose' })

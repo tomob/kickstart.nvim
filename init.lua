@@ -735,7 +735,7 @@ require('lazy').setup({
 
           -- If you prefer more traditional completion keymaps,
           -- you can uncomment the following lines
-          ['<C-CR>'] = cmp.mapping.confirm { select = true },
+          ['<CR>'] = cmp.mapping.confirm { select = true },
           ['<Tab>'] = cmp.mapping.select_next_item(),
           ['<S-Tab>'] = cmp.mapping.select_prev_item(),
 
@@ -927,7 +927,7 @@ vim.g.shiftwidth = 2
 vim.g.expandtab = true
 
 -- NOTE: Keys
--- vim.keymap.set('n', '<leader>b', builtin.help_tags, { desc = '[B]ugger [C]lose' })
+-- vim.keymap.set('n', '<leader>b', builtin.help_tags, { desc = '[B]uffer [C]lose' })
 
 -- NOTE: Neovide config
 vim.g.neovide_cursor_animation_length = 0.05

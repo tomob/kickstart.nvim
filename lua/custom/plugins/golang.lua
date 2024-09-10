@@ -6,6 +6,7 @@ return {
     'nvim-treesitter/nvim-treesitter',
   },
   config = function()
+    vim.o.tabstop = 4
     require('go').setup()
   end,
   event = { 'CmdlineEnter' },
